@@ -3,16 +3,16 @@ import React from 'react';
 import MenuLateral from '../../Components/MenuLateral';
 
 import {
-    Box
+    Container,
+    ContentContainer
 } from './styles';
 
 const Dashboard: React.FC = () => {
     return (
-        <>
-            <h1>Página Dashboard</h1>
+        <Container>
             <MenuLateral></MenuLateral>
-            <Box/>
-        </>
+            <ContentContainer></ContentContainer>
+        </Container>
     );
 }
 
